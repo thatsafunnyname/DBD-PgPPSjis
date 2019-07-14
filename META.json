@@ -29,7 +29,7 @@
                 "Archive::Tar" : "0.072",
                 "Compress::Zlib" : "1.03",
                 "Config" : "0",
-                "DBI" : "1.0"
+                "DBI" : "1.0",
                 "ExtUtils::MakeMaker" : "5.4302",
                 "Fcntl" : "1.03",
                 "File::Basename" : "2.6",
@@ -37,11 +37,10 @@
                 "File::Path" : "1.0401",
                 "FindBin" : "1.42",
                 "Getopt::Std" : "1.01",
-                "Test" : "1.122"
                 "Test" : "1.122",
                 "Test::Harness" : "1.1602",
                 "perl" : "5.005_03",
-                "strict" : "1.01",
+                "strict" : "1.01"
             }
         },
         "configure" : {
@@ -49,7 +48,7 @@
                 "Archive::Tar" : "0.072",
                 "Compress::Zlib" : "1.03",
                 "Config" : "0",
-                "DBI" : "1.0"
+                "DBI" : "1.0",
                 "ExtUtils::MakeMaker" : "5.4302",
                 "Fcntl" : "1.03",
                 "File::Basename" : "2.6",
@@ -60,8 +59,7 @@
                 "Test" : "1.122",
                 "Test::Harness" : "1.1602",
                 "perl" : "5.005_03",
-                "strict" : "1.01",
-                "Test" : "1.122"
+                "strict" : "1.01"
             }
         },
         "runtime" : {
@@ -69,7 +67,7 @@
                 "Archive::Tar" : "0.072",
                 "Compress::Zlib" : "1.03",
                 "Config" : "0",
-                "DBI" : "1.0"
+                "DBI" : "1.0",
                 "ExtUtils::MakeMaker" : "5.4302",
                 "Fcntl" : "1.03",
                 "File::Basename" : "2.6",
@@ -80,8 +78,7 @@
                 "Test" : "1.122",
                 "Test::Harness" : "1.1602",
                 "perl" : "5.005_03",
-                "strict" : "1.01",
-                "Test" : "1.122"
+                "strict" : "1.01"
             }
         }
     }
