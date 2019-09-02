@@ -1145,6 +1145,9 @@ sub _if_short_then_add_buffer {
         my $packet = '';
         $handle->recv($packet, $BUFFER_LEN, 0);
         DBD::PgPPSjis::Protocol::_dump_packet($packet);
+        if(0==length($packet)){
+            Carp::croak("disconnected");
+        }
         $self->{buffer} .= $packet;
     }
 }
